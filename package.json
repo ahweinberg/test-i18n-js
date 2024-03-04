@@ -1,0 +1,15 @@
+{
+  "name": "test-i18n-js",
+  "version": "1.0.0",
+  "description": "testing the i18n-js library in an isolated env",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@td/td-i18n-js": "git+ssh://git@github.com:Teladoc/td-i18n-js.git#204618f10c6075738f47862bc1a6b50e9ecb73b0",
+    "i18n-js": "^4.4.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
